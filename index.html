@@ -23,8 +23,10 @@
     <!--link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'-->
     <link href="https://fonts.googleapis.com/css?family=Monda|Noto+Sans" rel="stylesheet">
-
+    
+    <!-- Use font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,6 +36,14 @@
 </head>
 
 <body class="animated fadeInUp">
+    <!-- https://www.scriptol.com/javascript/dates-difference.php -->
+    <script>
+        function age(birthday)
+        {
+            birthday = new Date(birthday);
+            return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
+        }
+    </script>
 
 
 
@@ -53,12 +63,20 @@
                             <a href="https://www.instagram.com/mrjeremybrowne/" target="_blank">
                                 <i class="icon-instagram"></i>
                             </a>
-                            <a href="https://www.facebook.com/mrjeremyb" target="_blank">
+                            <!--a href="https://www.facebook.com/mrjeremyb" target="_blank">
                                 <i class="icon-facebook"></i>
-                            </a>
+                            </a-->
+
                             <a href="https://www.linkedin.com/in/j-browne" target="_blank">
                                 <i class="icon-linkedin"></i>
                             </a>
+                            <a href"https://github.com/jeremy-browne" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href"https://www.youtube.com/user/JB062" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+
                         </h4>
                     </h3>
                 </div>
@@ -77,13 +95,21 @@
                 <div class="col-lg-2 col-lg-offset-1">
                     <h5>ABOUT</h5>
                 </div>
-                <!--div class="col-lg-6">
-                    <ul>
+                <div class="col-lg-6">
+                    <p>I'm a <script>document.write(age("7 April 1991"))</script> year old wannabe airline pilot/software developer 
+                        who spent his early twenties in the army and then somehow ended up working at a VR games company.<br><br>
+                        
+                        Currently I'm lucky enough to spend my time at the world leading free roam virtual reality company Zero Latency VR 
+                        where I work as their Deployment Technical Lead, which I guess is a pretty good alternative to being a airline pilot/developer/astronaught.<br><br>
+
+                        My interests and passions include: tech, VR/AR, automation, skydiving, rock climbing, BASE jumping and anything that flies.
+                    </p>
+                    <!--ul>
                         <li>Technical Consultant.</li>
                         <li>Software Developer.</li>
                         <li>Management and Leadership Expert.</li>
-                    </ul>
-                </div-->
+                    </ul-->
+                </div>
                 <div class="col-lg-3">
                     <p>
                         <a href="JeremyBrowneCV.pdf" target="_blank">
@@ -118,7 +144,7 @@
             </div>
             <div class="col-lg-3">
                 <p>
-                    <sm>Estimated Completion: 2022 😭</sm>
+                    <sm>Estimated Completion: 2022 🙈</sm>
                     <br/>
                 </p>
             </div>
@@ -236,13 +262,18 @@
                         <a href="https://www.instagram.com/mrjeremybrowne/" target="_blank">
                             <i class="icon-instagram"></i>
                         </a>
-                        <a href="https://www.facebook.com/mrjeremyb" target="_blank">
+                        <!--a href="https://www.facebook.com/mrjeremyb" target="_blank">
                             <i class="icon-facebook"></i>
-                        </a>
+                        </a-->
                         <a href="https://www.linkedin.com/in/j-browne" target="_blank">
                             <i class="icon-linkedin"></i>
                         </a>
-                        <!--<a href="#"><i class="icon-github"></i></a>-->
+                        <a href"https://github.com/jeremy-browne" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href"https://www.youtube.com/user/JB062" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                     </p>
                 </div>
             </div>
