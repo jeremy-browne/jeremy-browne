@@ -67,6 +67,11 @@ a:after {
   padding: 0;
 }
 
+i {
+  font-size: 2em;
+  padding: 2%;
+}
+
 ul li {
   list-style-type: square;
   font-size: 90%;
